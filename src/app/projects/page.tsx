@@ -4,18 +4,53 @@ export default function Projects() {
     return (
         <>
             <Navbar />
-            <div className="m-[40px auto] p-[20px] bg-white-500 ">
-                <h2 className=" text-black-600/100 text-center font-weight: 700; text-2xl inset-x-0 bottom-0 h-16">JS Projects</h2>
-                <ol className="text-black-300/100 list-[lower-alpha] text-lg ps-8">
-                    <li>Calculator</li>
-                    <li>Tic-Tac-Toe</li>
-                    <li>Expense Tracker</li>
-                    <li>Shopping List</li>
-                    <li>API User Generator</li>
-                    <li>Weather App</li>
-                    <li>GitHub Profile Search</li>
-                </ol>
+            <div className="mx-auto my-2 p-5 bg-white rounded shadow-md w-[90%] max-w-3xl">
+                <h2 className="text-black text-center font-bold text-2xl mb-4">My Projects</h2>
+
+                <table className="table-auto w-full border border-gray-300">
+                    <thead>
+                        <tr className="bg-gray-100">
+                            <th className="border border-gray-300 px-4 py-2 text-left">No.</th>
+                            <th className="border border-gray-300 px-4 py-2 text-left">Project Name</th>
+                        </tr>
+                    </thead>
+                    <tbody className="text-gray-700">
+                        <tr>
+                            <td className="border border-gray-300 px-4 py-2">1</td>
+                            <td className="border border-gray-300 px-4 py-2 cursor-pointer"><a href="https://sujal123612.github.io/restaurent/">Sakura Restaurant</a></td>
+                        </tr>
+                        <tr>
+                            <td className="border border-gray-300 px-4 py-2">2</td>
+                            <td className="border border-gray-300 px-4 py-2 cursor-pointer"><a href="https://sujal123612.github.io/simple_calc/">Calculator</a></td>
+                        </tr>
+                        <tr>
+                            <td className="border border-gray-300 px-4 py-2">3</td>
+                            <td className="border border-gray-300 px-4 py-2 cursor-pointer"><a href="https://sujal123612.github.io/Tic-Tac-Toe/">Tic-Tac-Toe</a></td>
+                        </tr>
+                        <tr>
+                            <td className="border border-gray-300 px-4 py-2">4</td>
+                            <td className="border border-gray-300 px-4 py-2 cursor-pointer"><a href="https://sujal123612.github.io/Expense_Tracker/">Expense Tracker</a></td>
+                        </tr>
+                        <tr>
+                            <td className="border border-gray-300 px-4 py-2">5</td>
+                            <td className="border border-gray-300 px-4 py-2 cursor-pointer"><a href="https://sujal123612.github.io/Shopping_List/">Shopping List</a></td>
+                        </tr>
+                        <tr>
+                            <td className="border border-gray-300 px-4 py-2">6</td>
+                            <td className="border border-gray-300 px-4 py-2 cursor-pointer"><a href="https://sujal123612.github.io/Api_Random_User/">API Random User Generator</a></td>
+                        </tr>
+                        <tr>
+                            <td className="border border-gray-300 px-4 py-2">7</td>
+                            <td className="border border-gray-300 px-4 py-2 cursor-pointer"><a href="https://sujal123612.github.io/Weather_APP/">Weather App</a></td>
+                        </tr>
+                        <tr>
+                            <td className="border border-gray-300 px-4 py-2">8</td>
+                            <td className="border border-gray-300 px-4 py-2 cursor-pointer"><a href="https://sujal123612.github.io/Github_Profile_search/">GitHub Profile Search</a></td>
+                        </tr>
+                    </tbody>
+                </table>
             </div>
+
         </>
     );
 }
