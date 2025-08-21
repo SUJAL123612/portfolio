@@ -3,7 +3,6 @@ import Navbar from "../components/navbar";
 export default function Projects() {
     return (
         <>
-            <Navbar />
             <div className="mx-auto my-2 p-5 bg-white rounded shadow-md w-[90%] max-w-3xl">
                 <h2 className="text-black text-center font-bold text-2xl mb-4">My Projects</h2>
 
