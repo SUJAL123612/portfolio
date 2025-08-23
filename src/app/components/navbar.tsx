@@ -3,7 +3,7 @@ import Link from "next/link";
 export default function Navbar() {
   return (
     <>
-      <nav className="text-white bg-black/90 border border-transparent border-[1px] flex">
+      <nav className="text-white bg-black/90  border-transparent border-[1px] flex">
         <div className="mt-8">
           <p className="inline-block mr-8 mb-8 text-2xl font-sans text-white ml-[100px] cursor-default" id="home">Sujal Chalke</p>
         </div>
