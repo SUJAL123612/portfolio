@@ -26,7 +26,7 @@ export default function Education() {
                     </div>
                 </div>
                 <div className="flex items-center -mt-[385px] ml-[50px]">
-                        <p className="text-2xl font-sans text-white cursor-default ml-[60px]">Vidya Prasark Mandal's B.N. Bandodkar College of Science</p>
+                        <p className="text-2xl font-sans text-white cursor-default ml-[60px]">Vidya Prasark Mandal&apos;s B.N. Bandodkar College of Science</p>
                         <p className="text-4xl font-sans text-white cursor-default ml-[313px]">74.17%</p>
                 </div>
                 <div className="border border-transparent w-full h-[500px] flex items-center">
