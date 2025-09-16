@@ -8,7 +8,7 @@ export default function Home() {
           <p className="text-[20px] rounded-full font-sans text-white ml-[100px] mt-[20px] cursor-pointer bg-purple-600 hover:bg-purple-500 hover:text-gray-300 w-47 pr-5 pl-5 pt-2 pb-2">DOWNLOAD CV</p>
         </div>
         <div className="w-80 h-80 rounded-full overflow-hidden border-4 border-purple-600 mt-[50px] ml-[130px]">
-          <img src="reviewer.jpg" alt="profile" className="w-full h-full object-cover" />
+          <img src="reviewer2.jpeg" alt="profile" className="w-full h-full object-contain" />
         </div>
       </div>
     </>
