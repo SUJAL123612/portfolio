@@ -84,6 +84,15 @@ export default function Projects() {
                     The GitHub Profile Search is a simple and interactive web application that allows users to search for GitHub profiles by entering a username.
                     </p>
                 </div>
+                <div className="rounded-lg border border-white mt-[60px] w-[400px] h-[380px] ml-[20px] p-6 flex flex-col items-center text-center">
+                    <img src="Pokemon.png" alt="github Icon" className="w-75 h-40 mb-4 cursor-pointer" />
+                    <p className="text-2xl text-white font-sans cursor-pointer mb-2 hover:text-gray-400">
+                    <a href="https://sujal123612.github.io/Pokemon_Project/first_page" target="_blank">Pokemon Battle Arena</a>
+                    </p>
+                    <p className="text-1xl text-white/60 font-sans cursor-pointer">
+                    Pokémon-inspired battle arena built with React.
+                    </p>
+                </div>
                 </div>
             </div>
         </>
