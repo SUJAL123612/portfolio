@@ -11,7 +11,8 @@ export default function Skills() {
 
         <div className="border border-transparent mt-[30px] w-full h-[500px] flex">
           {/* Frontend Box */}
-          <div className="rounded-lg border border-white mt-[30px] w-[600px] h-[250px] ml-[60px] p-4">
+          {/* <div className="rounded-lg border border-white mt-[30px] w-[600px] h-[250px] ml-[60px] p-4"> */}
+          <div className="rounded-lg border border-white mt-[30px] w-[600px] h-[250px] ml-[340px] p-4">
             <p className="text-2xl text-white font-sans cursor-default text-center mb-4">
               Frontend
             </p>
@@ -47,7 +48,7 @@ export default function Skills() {
             </div>
           </div>
 
-          {/* Backend Box */}
+          {/* Backend Box
           <div className="rounded-lg border border-white mt-[30px] w-[450px] h-[250px] ml-[70px]">
             <p className="text-2xl text-white cursor-default font-sans text-center mt-2">
               Backend
@@ -58,7 +59,7 @@ export default function Skills() {
                 <span>MYSQL</span>
               </p>
             </div>
-          </div>
+          </div> */}
         </div>
         <div className="border border-transparent -mt-[210px] w-full  flex">
           {/* Tools Box */}
@@ -82,10 +83,6 @@ export default function Skills() {
               <p className="flex items-center text-white font-sans cursor-default rounded-full border border-white px-4 py-2 space-x-2 text-lg ml-5">
                 <img src="postman_icon.png" alt="Mysql Icon" className="w-6 h-6" />
                 <span>Postman</span>
-              </p>
-              <p className="flex items-center text-white font-sans cursor-default rounded-full border border-white px-4 py-2 space-x-2 text-lg ml-5">
-                <img src="figma_icon.png" alt="Mysql Icon" className="w-6 h-6" />
-                <span>Figma</span>
               </p>
             </div>
           </div>
