@@ -11,21 +11,21 @@ export default function Contacts() {
           {/* Email Card */}
           <div className="flex flex-col items-center bg-gray-900 rounded-lg p-6 shadow-lg hover:shadow-purple-600 transition duration-300">
             <img src="email_icon.png" alt="Email" className="w-12 h-12 mb-4" />
-            <p className="text-xl text-white mb-2" style={{ fontFamily: "'Roboto', sans-serif" }}>Email</p>
+            <p className="text-xl text-white mb-2 cursor-default" style={{ fontFamily: "'Roboto', sans-serif" }}>Email</p>
             <a href="https://mail.google.com/mail/?view=cm&fs=1&to=sujal758@gmail.com" target="_blank" className="text-white text-lg hover:text-purple-500 break-all"style={{ fontFamily: "'Roboto', sans-serif" }}>myemail@gmail.com</a>
           </div>
 
           {/* LinkedIn Card */}
           <div className="flex flex-col items-center bg-gray-900 rounded-lg p-6 shadow-lg hover:shadow-purple-600 transition duration-300">
             <img src="linkedin_icon.png" alt="LinkedIn" className="w-12 h-12 mb-4" />
-            <p className="text-xl text-white mb-2" style={{ fontFamily: "'Roboto', sans-serif" }}>LinkedIn</p>
+            <p className="text-xl text-white mb-2 cursor-default" style={{ fontFamily: "'Roboto', sans-serif" }}>LinkedIn</p>
             <a href="https://www.linkedin.com/in/sujal-chalke-b23923244/" target="_blank" className="text-white text-lg hover:text-purple-500 break-all" style={{ fontFamily: "'Roboto', sans-serif" }}>linkedin.com/in/username</a>
           </div>
 
           {/* GitHub Card */}
           <div className="flex flex-col items-center bg-gray-900 rounded-lg p-6 shadow-lg hover:shadow-purple-600 transition duration-300">
             <img src="github_icon.png" alt="GitHub" className="w-12 h-12 mb-4" />
-            <p className="text-xl text-white mb-2" style={{ fontFamily: "'Roboto', sans-serif" }}>GitHub</p>
+            <p className="text-xl text-white mb-2 cursor-default" style={{ fontFamily: "'Roboto', sans-serif" }}>GitHub</p>
             <a href="https://github.com/SUJAL123612" target="_blank" className="text-white text-lg hover:text-purple-500 break-all" style={{ fontFamily: "'Roboto', sans-serif" }}>github.com/username</a>
           </div>
         </div>
