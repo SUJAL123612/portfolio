@@ -8,35 +8,35 @@ export default function Education() {
                     EDUCATION
                 </h2>
                 <div className="border border-transparent w-full h-[500px] flex items-center">
-                    <div className="flex items-center -mt-[325px] ml-[50px]">
+                    <div className="flex items-center -mt-[325px] ml-[110px]">
                         <img src="book.png" alt="Book Icon" className="w-10 h-10 mr-3" />
                         <p className="text-3xl font-sans text-white cursor-default" style={{ fontFamily: "'Roboto', sans-serif;" }}>SSC(Maharashtra State Board)</p>
                         <p className="text-3xl font-sans text-white cursor-default ml-[413px]">2009-2019</p>
                     </div>
                 </div>
-                <div className="flex items-center -mt-[385px] ml-[50px]">
+                <div className="flex items-center -mt-[385px] ml-[110px]">
                         <p className="text-2xl font-sans text-white cursor-default ml-[60px]" style={{ fontFamily: "'Roboto', sans-serif;" }}>Guru Nanak English High School</p>
                         <p className="text-2xl font-sans text-white cursor-default ml-[520px]">70.80%</p>
                 </div>
                 <div className="border border-transparent w-full h-[500px] flex items-center">
-                    <div className="flex items-center -mt-[325px] ml-[50px]">
+                    <div className="flex items-center -mt-[325px] ml-[110px]">
                         <img src="book.png" alt="Book Icon" className="w-10 h-10 mr-3" />
                         <p className="text-3xl font-sans text-white cursor-default" style={{ fontFamily: "'Roboto', sans-serif;" }}>HSC-Science(Maharashtra State Board)</p>
                         <p className="text-3xl font-sans text-white cursor-default ml-[292px]">2019-2021</p>
                     </div>
                 </div>
-                <div className="flex items-center -mt-[385px] ml-[50px]">
+                <div className="flex items-center -mt-[385px] ml-[110px]">
                         <p className="text-2xl font-sans text-white cursor-default ml-[60px]" style={{ fontFamily: "'Roboto', sans-serif;" }}>Vidya Prasark Mandal&apos;s B.N. Bandodkar College of Science</p>
                         <p className="text-2xl font-sans text-white cursor-default ml-[240px]">74.17%</p>
                 </div>
                 <div className="border border-transparent w-full h-[500px] flex items-center">
-                    <div className="flex items-center -mt-[325px] ml-[50px]">
+                    <div className="flex items-center -mt-[325px] ml-[110px]">
                         <img src="book.png" alt="Book Icon" className="w-10 h-10 mr-3" />
                         <p className="text-3xl font-sans text-white cursor-default" style={{ fontFamily: "'Roboto', sans-serif;" }}>Bachelor of Science - Computer Science</p>
                         <p className="text-3xl font-sans text-white cursor-default ml-[280px]">2021-2024</p>
                     </div>
                 </div>
-                <div className="flex items-center -mt-[385px] ml-[50px]">
+                <div className="flex items-center -mt-[385px] ml-[110px]">
                         <p className="text-2xl font-sans text-white cursor-default ml-[60px]" style={{ fontFamily: "'Roboto', sans-serif;" }}>Mulund College of Commmerce</p>
                         <p className="text-2xl font-sans text-white cursor-default ml-[510px]">7.89 CGPA</p>
                 </div>

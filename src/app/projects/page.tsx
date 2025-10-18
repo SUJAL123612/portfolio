@@ -8,10 +8,11 @@ export default function Projects() {
                     PROJECTS
                 </h2>
                 <div className="flex ml-5 mt-[-30px]">
-                    <div className="rounded-lg border border-transparent mt-16 w-80 md:w-96 p-6 flex flex-col items-center text-center ml-[20px] bg-gray-900 shadow-lg hover:shadow-purple-600 transition duration-300">
+                    <div className=" rounded-lg border border-transparent mt-16 w-80 md:w-96 p-6 flex flex-col items-center text-center ml-[20px] bg-gray-900 shadow-lg hover:shadow-purple-600 transition duration-300">
                         <img src="restaurent.png" alt="Restaurant Icon" className="w-full h-48 object-contain mb-4 cursor-pointer rounded"/>
-                        <p className="text-2xl text-white font-semibold mb-2 hover:text-purple-500" style={{ fontFamily: "'Inter', sans-serif" }} >
-                            <a href="https://sujal123612.github.io/restaurent/" target="_blank">Restaurant</a>
+                        <p className="group text-2xl text-white font-semibold mb-2 hover:text-purple-500" style={{ fontFamily: "'Inter', sans-serif" }} >
+                            <a href="https://sujal123612.github.io/restaurent/" target="_blank" className="block group-hover:hidden">Restaurant</a>
+                            <a href="https://sujal123612.github.io/restaurent/" target="_blank" className="hidden group-hover:block">Show Project</a>
                         </p>
                         <p className="text-base text-white/60 font-sans cursor-default" style={{ fontFamily: "'Roboto', sans-serif" }}>
                             Built a modern, single-page restaurant website using HTML and CSS. Features include an image slider, responsive layout, parallax backgrounds, a detailed food menu, featured chef sections, and a footer with contact and gallery information.
@@ -19,8 +20,9 @@ export default function Projects() {
                     </div>
                     <div className="rounded-lg border border-transparent mt-16 w-80 md:w-96 p-6 flex flex-col items-center text-center ml-[20px] bg-gray-900 shadow-lg hover:shadow-purple-600 transition duration-300">
                         <img src="calculator.png" alt="calculator Icon" className="w-full h-48 object-contain mb-4 cursor-pointer rounded" />
-                        <p className="text-2xl text-white font-sans cursor-pointer mb-2 hover:text-purple-600" style={{ fontFamily: "'Inter', sans-serif" }}>
-                            <a href="https://sujal123612.github.io/simple_calc/" target="_blank">Calculator</a>
+                        <p className="group text-2xl text-white font-sans cursor-pointer mb-2 hover:text-purple-600" style={{ fontFamily: "'Inter', sans-serif" }}>
+                            <a href="https://sujal123612.github.io/simple_calc/" target="_blank" className="block group-hover:hidden">Calculator</a>
+                            <a href="https://sujal123612.github.io/restaurent/" target="_blank" className="hidden group-hover:block">Show Project</a>
                         </p>
                         <p className="text-base text-white/60 font-sans cursor-default" style={{ fontFamily: "'Roboto', sans-serif" }}>
                             Simple Operations Like Addition, Subtraction, Multiplication and Division.
@@ -28,8 +30,9 @@ export default function Projects() {
                     </div>
                     <div className="rounded-lg border border-transparent mt-16 w-80 md:w-96 p-6 flex flex-col items-center text-center ml-[20px] bg-gray-900 shadow-lg hover:shadow-purple-600 transition duration-300">
                         <img src="Tic_Tac_Toe.png" alt="tic-tac-toe Icon" className="w-full h-48 object-contain mb-4 cursor-pointer rounded" />
-                        <p className="text-2xl text-white font-sans cursor-pointer mb-2 hover:text-purple-600" style={{ fontFamily: "'Inter', sans-serif" }}>
-                            <a href="https://sujal123612.github.io/Tic-Tac-Toe/" target="_blank">Tic-Tac-Toe</a>
+                        <p className="group text-2xl text-white font-sans cursor-pointer mb-2 hover:text-purple-600" style={{ fontFamily: "'Inter', sans-serif" }}>
+                            <a href="https://sujal123612.github.io/Tic-Tac-Toe/" target="_blank" className="block group-hover:hidden">Tic-Tac-Toe</a>
+                            <a href="https://sujal123612.github.io/restaurent/" target="_blank" className="hidden group-hover:block">Show Project</a>
                         </p>
                         <p className="text-base text-white/60 font-sans cursor-default" style={{ fontFamily: "'Roboto', sans-serif" }}>
                             Play with a friend, customize player names, and experience the joy of victory in this classic two-player game. Simple and interactive.
@@ -39,8 +42,9 @@ export default function Projects() {
                 <div className="flex ml-5 ">
                     <div className="rounded-lg border border-transparent mt-16 w-80 md:w-96 p-6 flex flex-col items-center text-center ml-[20px] bg-gray-900 shadow-lg hover:shadow-purple-600 transition duration-300">
                         <img src="Expense_Tracker.png" alt="expense Icon" className="w-full h-48 object-contain mb-4 cursor-pointer rounded" />
-                        <p className="text-2xl text-white font-sans cursor-pointer mb-2 hover:text-purple-600" style={{ fontFamily: "'Inter', sans-serif" }}>
-                            <a href="https://sujal123612.github.io/Expense_Tracker/" target="_blank">Expense_Tracker</a>
+                        <p className="group text-2xl text-white font-sans cursor-pointer mb-2 hover:text-purple-600" style={{ fontFamily: "'Inter', sans-serif" }}>
+                            <a href="https://sujal123612.github.io/Expense_Tracker/" target="_blank" className="block group-hover:hidden">Expense_Tracker</a>
+                            <a href="https://sujal123612.github.io/restaurent/" target="_blank" className="hidden group-hover:block">Show Project</a>
                         </p>
                         <p className="text-base text-white/60 font-sans cursor-default" style={{ fontFamily: "'Roboto', sans-serif" }}>
                             A simple expense tracker web application using HTML, CSS, and JavaScript. Add your income and expenses, view the transaction history, and track your total balance dynamically.
@@ -48,8 +52,9 @@ export default function Projects() {
                     </div>
                     <div className="rounded-lg border border-transparent mt-16 w-80 md:w-96 p-6 flex flex-col items-center text-center ml-[20px] bg-gray-900 shadow-lg hover:shadow-purple-600 transition duration-300">
                         <img src="Shopping_List.png" alt="shopping Icon" className="w-full h-48 object-contain mb-4 cursor-pointer rounded" />
-                        <p className="text-2xl text-white font-sans cursor-pointer mb-2 hover:text-purple-600" style={{ fontFamily: "'Inter', sans-serif" }}>
-                            <a href="https://sujal123612.github.io/Shopping_List/" target="_blank">Shopping_List</a>
+                        <p className="group text-2xl text-white font-sans cursor-pointer mb-2 hover:text-purple-600" style={{ fontFamily: "'Inter', sans-serif" }}>
+                            <a href="https://sujal123612.github.io/Shopping_List/" target="_blank" className="block group-hover:hidden">Shopping_List</a>
+                            <a href="https://sujal123612.github.io/restaurent/" target="_blank" className="hidden group-hover:block">Show Project</a>
                         </p>
                         <p className="text-base text-white/60 font-sans cursor-default" style={{ fontFamily: "'Roboto', sans-serif" }}>
                             A simple shopping list web app built with HTML, CSS, and JavaScript. Features include adding, editing, deleting, searching, and saving items using localStorage.
@@ -57,8 +62,9 @@ export default function Projects() {
                     </div>
                     <div className="rounded-lg border border-transparent mt-16 w-80 md:w-96 p-6 flex flex-col items-center text-center ml-[20px] bg-gray-900 shadow-lg hover:shadow-purple-600 transition duration-300">
                         <img src="API.png" alt="Api Icon" className="w-full h-48 object-contain mb-4 cursor-pointer rounded" />
-                        <p className="text-2xl text-white font-sans cursor-pointer mb-2 hover:text-purple-600" style={{ fontFamily: "'Inter', sans-serif" }}>
-                            <a href="https://sujal123612.github.io/Api_Random_User/" target="_blank">API_Random_User</a>
+                        <p className="group text-2xl text-white font-sans cursor-pointer mb-2 hover:text-purple-600" style={{ fontFamily: "'Inter', sans-serif" }}>
+                            <a href="https://sujal123612.github.io/Api_Random_User/" target="_blank" className="block group-hover:hidden">API_Random_User</a>
+                            <a href="https://sujal123612.github.io/restaurent/" target="_blank" className="hidden group-hover:block">Show Project</a>
                         </p>
                         <p className="text-base text-white/60 font-sans cursor-default" style={{ fontFamily: "'Roboto', sans-serif" }}>
                             Generates random user profiles using the Random User API. Built with HTML, CSS, and JavaScript for a responsive and interactive UI.
@@ -68,8 +74,9 @@ export default function Projects() {
                 <div className="flex ml-5">
                     <div className="rounded-lg border border-transparent mt-16 w-80 md:w-96 p-6 flex flex-col items-center text-center ml-[20px] bg-gray-900 shadow-lg hover:shadow-purple-600 transition duration-300">
                         <img src="Weather.png" alt="weather Icon" className="w-full h-48 object-contain mb-4 cursor-pointer rounded" />
-                        <p className="text-2xl text-white font-sans cursor-pointer mb-2 hover:text-purple-600" style={{ fontFamily: "'Inter', sans-serif" }}>
-                            <a href="https://sujal123612.github.io/Weather_APP/" target="_blank">Weather_App</a>
+                        <p className="group text-2xl text-white font-sans cursor-pointer mb-2 hover:text-purple-600" style={{ fontFamily: "'Inter', sans-serif" }}>
+                            <a href="https://sujal123612.github.io/Weather_APP/" target="_blank" className="block group-hover:hidden">Weather_App</a>
+                            <a href="https://sujal123612.github.io/restaurent/" target="_blank" className="hidden group-hover:block">Show Project</a>
                         </p>
                         <p className="text-base text-white/60 font-sans cursor-default" style={{ fontFamily: "'Roboto', sans-serif" }}>
                             A simple and responsive Weather App built with HTML, CSS, and JavaScript. It fetches real-time weather data using the OpenWeatherMap API based on user input.
@@ -77,8 +84,9 @@ export default function Projects() {
                     </div>
                     <div className="rounded-lg border border-transparent mt-16 w-80 md:w-96 p-6 flex flex-col items-center text-center ml-[20px] bg-gray-900 shadow-lg hover:shadow-purple-600 transition duration-300">
                         <img src="Github.png" alt="github Icon" className="w-full h-48 object-contain mb-4 cursor-pointer rounded" />
-                        <p className="text-2xl text-white font-sans cursor-pointer mb-2 hover:text-purple-600" style={{ fontFamily: "'Inter', sans-serif" }}>
-                            <a href="https://sujal123612.github.io/Github_Profile_search/" target="_blank">Github_Profile_Search</a>
+                        <p className="group text-2xl text-white font-sans cursor-pointer mb-2 hover:text-purple-600" style={{ fontFamily: "'Inter', sans-serif" }}>
+                            <a href="https://sujal123612.github.io/Github_Profile_search/" target="_blank" className="block group-hover:hidden">Github_Profile_Search</a>
+                            <a href="https://sujal123612.github.io/restaurent/" target="_blank" className="hidden group-hover:block">Show Project</a>
                         </p>
                         <p className="text-base text-white/60 font-sans cursor-default" style={{ fontFamily: "'Roboto', sans-serif" }}>
                             The GitHub Profile Search is a simple and interactive web application that allows users to search for GitHub profiles by entering a username.
@@ -86,8 +94,9 @@ export default function Projects() {
                     </div>
                     <div className="rounded-lg border border-transparent mt-16 w-80 md:w-96 p-6 flex flex-col items-center text-center ml-[20px] bg-gray-900 shadow-lg hover:shadow-purple-600 transition duration-300">
                         <img src="Pokemon.png" alt="github Icon" className="w-full h-48 object-contain mb-4 cursor-pointer rounded" />
-                        <p className="text-2xl text-white font-sans cursor-pointer mb-2 hover:text-purple-600" style={{ fontFamily: "'Inter', sans-serif" }}>
-                            <a href="https://sujal123612.github.io/Pokemon_Project/first_page" target="_blank">Pokemon Battle Arena</a>
+                        <p className="group text-2xl text-white font-sans cursor-pointer mb-2 hover:text-purple-600" style={{ fontFamily: "'Inter', sans-serif" }}>
+                            <a href="https://sujal123612.github.io/Pokemon_Project/first_page" target="_blank" className="block group-hover:hidden">Pokemon Battle Arena</a>
+                            <a href="https://sujal123612.github.io/restaurent/" target="_blank" className="hidden group-hover:block">Show Project</a>
                         </p>
                         <p className="text-base text-white/60 font-sans cursor-default" style={{ fontFamily: "'Roboto', sans-serif" }}>
                             Pokémon-inspired battle arena built with React.
