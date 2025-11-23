@@ -7,9 +7,9 @@ export default function Home() {
           <p className="text-[17px] font-sans text-white ml-[100px] mt-[10px] w-[550px] text-justify" style={{ fontFamily: "'Poppins', sans-serif" }}>I&apos;m a Full-Stack Developer with skills in HTML, CSS, JavaScript,Python and React. I like building web applications that combine simplicity, performance, and great user experience.I’ve learned both front-end and back-end development, which allows me to create complete web solutions through my personal projects.I’m passionate about improving my skills and building applications that solve real-world problems.</p>
           <p className="text-[20px] rounded-full font-sans text-gray-300 ml-[100px] mt-[20px] cursor-pointer bg-purple-500 hover:bg-purple-600 hover:text-white w-60 pr-5 pl-5 pt-2 pb-2">DOWNLOAD RESUME</p>
         </div>
-        <div className="w-70 h-70 rounded-full overflow-hidden border-4 border-purple-600 mt-[50px] ml-[180px]">
-          <img src="reviewer3.jpeg" alt="profile" className="w-[750px] h-[550px] object-contain mt-[-80px] transition-transform duration-500 hover:scale-110"/>
-        </div>
+        {/* <div className="w-70 h-70 rounded-full overflow-hidden border-4 border-purple-600 mt-[50px] ml-[180px]"> */}
+          <img src="profile1.png" alt="profile" className="w-[550px] h-[450px] object-contain mt-[10px]"/>
+        {/* </div> */}
       </div>
     </>
   );

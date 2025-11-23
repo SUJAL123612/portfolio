@@ -15,8 +15,8 @@ export default function Education() {
                     </div>
                 </div>
                 <div className="flex items-center -mt-[385px] ml-[110px]">
-                        <p className="text-2xl font-sans text-white cursor-default ml-[60px]" style={{ fontFamily: "'Roboto', sans-serif;" }}>Guru Nanak English High School</p>
-                        <p className="text-2xl font-sans text-white cursor-default ml-[520px]">70.80%</p>
+                        <p className="text-2xl font-sans text-white/50 cursor-default ml-[60px]" style={{ fontFamily: "'Roboto', sans-serif;" }}>Guru Nanak English High School</p>
+                        <p className="text-2xl font-sans text-white/50 cursor-default ml-[520px]">70.80%</p>
                 </div>
                 <div className="border border-transparent w-full h-[500px] flex items-center">
                     <div className="flex items-center -mt-[325px] ml-[110px]">
@@ -26,8 +26,8 @@ export default function Education() {
                     </div>
                 </div>
                 <div className="flex items-center -mt-[385px] ml-[110px]">
-                        <p className="text-2xl font-sans text-white cursor-default ml-[60px]" style={{ fontFamily: "'Roboto', sans-serif;" }}>Vidya Prasark Mandal&apos;s B.N. Bandodkar College of Science</p>
-                        <p className="text-2xl font-sans text-white cursor-default ml-[240px]">74.17%</p>
+                        <p className="text-2xl font-sans text-white/50 cursor-default ml-[60px]" style={{ fontFamily: "'Roboto', sans-serif;" }}>Vidya Prasark Mandal&apos;s B.N. Bandodkar College of Science</p>
+                        <p className="text-2xl font-sans text-white/50 cursor-default ml-[240px]">74.17%</p>
                 </div>
                 <div className="border border-transparent w-full h-[500px] flex items-center">
                     <div className="flex items-center -mt-[325px] ml-[110px]">
@@ -37,8 +37,8 @@ export default function Education() {
                     </div>
                 </div>
                 <div className="flex items-center -mt-[385px] ml-[110px]">
-                        <p className="text-2xl font-sans text-white cursor-default ml-[60px]" style={{ fontFamily: "'Roboto', sans-serif;" }}>Mulund College of Commmerce</p>
-                        <p className="text-2xl font-sans text-white cursor-default ml-[510px]">7.89 CGPA</p>
+                        <p className="text-2xl font-sans text-white/50 cursor-default ml-[60px]" style={{ fontFamily: "'Roboto', sans-serif;" }}>Mulund College of Commmerce</p>
+                        <p className="text-2xl font-sans text-white/50 cursor-default ml-[510px]">7.89 CGPA</p>
                 </div>
             </div>
         </>
