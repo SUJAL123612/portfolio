@@ -102,18 +102,18 @@ export default function Projects() {
                             Pokémon-inspired battle arena built with React.
                         </p>
                     </div>
-                    <div className="rounded-lg border border-transparent mt-16 w-80 md:w-96 p-6 flex flex-col items-center text-center ml-[20px] bg-gray-900 shadow-lg hover:shadow-purple-600 transition duration-300">
+                </div>
+                <div className="flex ml-5">
+                <div className="rounded-lg border border-transparent mt-16 w-80 md:w-96 p-6 flex flex-col items-center text-center ml-[20px] bg-gray-900 shadow-lg hover:shadow-purple-600 transition duration-300">
                         <img src="Movie-Hub.png" alt="github Icon" className="w-full h-48 object-contain mb-4 cursor-default rounded transition-transform duration-500 hover:scale-110" />
                         <p className="group text-2xl text-white font-sans cursor-pointer mb-2 hover:text-purple-600" style={{ fontFamily: "'Inter', sans-serif" }}>
                             <a href="https://sujal123612.github.io/Movie-Hub/" target="_blank" className="block group-hover:hidden">Movie Hub</a>
                             <a href="https://sujal123612.github.io/Movie-Hub/" target="_blank" className="hidden group-hover:block">Show Project</a>
                         </p>
                         <p className="text-base text-white/60 font-sans cursor-default" style={{ fontFamily: "'Roboto', sans-serif" }}>
-                            Pokémon-inspired battle arena built with React.
+                        Movie Hub is a responsive React.js web application that allows users to explore and search movies with an interactive and user-friendly interface. The project focuses on front-end development concepts such as component-based architecture, API integration, responsive design, and dynamic content rendering.
                         </p>
                     </div>
-                </div>
-                <div className="flex ml-5">
                     <div className="rounded-lg border border-transparent mt-16 w-80 md:w-96 p-6 flex flex-col items-center text-center ml-[20px] bg-gray-900 shadow-lg hover:shadow-purple-600 transition duration-300">
                         <img src="LMS.png" alt="LMS Icon" className="w-full h-48 object-contain mb-4 cursor-default rounded transition-transform duration-500 hover:scale-110" />
                         <p className="group text-2xl text-white font-sans cursor-pointer mb-2 hover:text-purple-600" style={{ fontFamily: "'Inter', sans-serif" }}>
