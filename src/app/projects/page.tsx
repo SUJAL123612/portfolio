@@ -3,7 +3,7 @@ export default function Projects() {
         <>
             <div className="bg-black/90 border border-transparent w-full h-[1940px]">
                 <h2
-                    className="text-[50px] font-sans text-white cursor-default underline underline-offset-7 decoration-purple-600 decoration-4 text-center -mt-[50px]"
+                    className="text-[50px] font-sans text-white cursor-default underline underline-offset-7 decoration-purple-600 decoration-4 text-center mt-[30px]"
                     id="projects" style={{ fontFamily: "'Inter', sans-serif;" }}>
                     PROJECTS
                 </h2>

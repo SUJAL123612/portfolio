@@ -1,9 +1,9 @@
 export default function Contacts() {
   return (
     <>
-      <div className="bg-black/90 border border-transparent w-full h-[400px] py-16 px-4">
+      <div className="bg-black/90 border border-transparent w-full h-[600px] py-16 px-4">
         {/* Heading */}
-        <h2  className="text-[50px] font-bold text-white text-center underline underline-offset-7 decoration-purple-600 decoration-4 mb-12"
+        <h2  className="text-[50px] font-bold text-white text-center underline underline-offset-7 decoration-purple-600 decoration-4 mb-12 mt-[190px]"
           id="contact" style={{ fontFamily: "'Inter', sans-serif" }} >CONTACT</h2>
 
         
