@@ -1,155 +1,91 @@
+const skills = [
+  {
+    category: "Web Technologies",
+    items: [
+      { name: "HTML", icon: "html_icon.png" },
+      { name: "CSS", icon: "css_icon.png" },
+      { name: "JavaScript", icon: "js_icon.png" },
+      { name: "React JS", icon: "Reactjs_icon.png" },
+      { name: "Next JS", icon: "nextjs_icon.png" },
+      { name: "Tailwind CSS", icon: "Tailwind_icon.png" },
+      { name: "Bootstrap", icon: "Bootstrap_icon.png" },
+      { name: "WordPress", icon: "wordpress_icon.png" },
+    ],
+  },
+  {
+    category: "Backend & Database",
+    items: [
+      { name: "Node JS", icon: "Node.js_icon.png" },
+      { name: "MySQL", icon: "mysql_icon.png" },
+    ],
+  },
+  {
+    category: "Tools",
+    items: [
+      { name: "Git", icon: "git_icon.png" },
+      { name: "GitHub", icon: "github_icon.png" },
+      { name: "VS Code", icon: "vs_icon.png" },
+      { name: "Postman", icon: "postman_icon.png" },
+      { name: "PgAdmin4", icon: "postgre_icon.png" },
+    ],
+  },
+  {
+    category: "Languages",
+    items: [
+      { name: "JavaScript", icon: "js_icon.png" },
+      { name: "TypeScript", icon: "TypeScript_icon.png" },
+    ],
+  },
+];
+
 export default function Skills() {
   return (
-    <>
-      <div className="bg-black/90 border border-transparent w-full h-[700px]">
-        <h2
-          className="text-[50px] font-sans text-white cursor-default underline underline-offset-7 decoration-purple-600 decoration-4 text-center"
-          id="skills"
-          style={{ fontFamily: "'Inter', sans-serif" }}
-        >
-          SKILLS
-        </h2>
+    <section
+      className="bg-black/90 w-full py-16 px-6 md:px-24"
+      id="skills"
+    >
+      {/* Section Title */}
+      <h2
+        className="text-[50px] text-white text-center underline underline-offset-8 decoration-purple-600 decoration-4 mb-16 cursor-default"
+        style={{ fontFamily: "'Inter', sans-serif" }}
+      >
+        Skills
+      </h2>
 
-        <div className="border border-transparent mt-[30px] w-full h-[500px] flex justify-center">
-          {/* Web Technologies Box */}
-          {/* <div className="rounded-lg border border-white mt-[30px] w-[600px] h-[250px] ml-[60px] p-4"> */}
-          <div className="rounded-lg border border-white mt-[30px] w-[600px] h-[250px] ml-[30px] p-4">
-            <p className="text-2xl text-white font-sans cursor-default text-center mb-4">
-              Web Technologies
-            </p>
-            <div className="grid grid-cols-3 gap-4">
-              <p className="flex items-center text-white font-sans cursor-default rounded-full border border-white px-4 py-2 space-x-2 text-lg shadow-md  hover:shadow-purple-600 transition duration-300">
-                <img src="html_icon.png" alt="HTML Icon" className="w-6 h-6" />
-                <span>HTML</span>
-              </p>
-              <p className="flex items-center text-white font-sans cursor-default rounded-full border border-white px-4 py-2 space-x-2 text-lg shadow-md  hover:shadow-purple-600 transition duration-300">
-                <img src="css_icon.png" alt="CSS Icon" className="w-6 h-6" />
-                <span>CSS</span>
-              </p>
-              <p className="flex items-center text-white font-sans cursor-default rounded-full border border-white px-4 py-2 space-x-2 text-lg shadow-md  hover:shadow-purple-600 transition duration-300">
-                <img src="js_icon.png" alt="JS Icon" className="w-6 h-6" />
-                <span>WordPress</span>
-              </p>
-              <p className="flex items-center text-white font-sans cursor-default rounded-full border border-white px-4 py-2 space-x-2 text-lg shadow-md  hover:shadow-purple-600 transition duration-300">
-                <img src="Reactjs_icon.png" alt="React Icon" className="w-6 h-6" />
-                <span>React-JS</span>
-              </p>
-              <p className="flex items-center text-white font-sans cursor-default rounded-full border border-white px-4 py-2 space-x-2 text-lg shadow-md  hover:shadow-purple-600 transition duration-300">
-                <img src="Tailwind_icon.png" alt="Tailwind Icon" className="w-6 h-6" />
-                <span>Tailwind-CSS</span>
-              </p>
-
-              <p className="flex items-center text-white font-sans cursor-default rounded-full border border-white px-4 py-2 space-x-2 text-lg shadow-md  hover:shadow-purple-600 transition duration-300">
-                <img src="Gsap_icon.png" alt="GSAP Icon" className="w-6 h-6" />
-                <span>Next-JS</span>
-              </p>
-              <div className="col-span-3 flex justify-center">
-                <p className="flex items-center text-white font-sans cursor-default rounded-full border border-white px-8 py-2 space-x-2 text-lg shadow-md  hover:shadow-purple-600 transition duration-300">
-                  <img src="Bootstrap_icon.png" alt="Bootstrap Icon" className="w-6 h-6" />
-                  <span>Bootstrap</span>
-                </p>
-              </div>
-            </div>
-          </div>
-
-          {/* Backend Box */}
-          <div className="rounded-lg border border-white mt-[30px] w-[450px] h-[250px] ml-[70px] p-4">
-            <p className="text-2xl text-white cursor-default font-sans text-center mt-2">
-              Backend
+      {/* Skills Grid */}
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+        {skills.map((skillGroup, index) => (
+          <div
+            key={index}
+            className="border border-white/20 rounded-xl p-6 hover:border-purple-600 transition-all duration-300"
+          >
+            {/* Category Title */}
+            <p
+              className="text-xl text-white font-semibold text-center mb-6"
+              style={{ fontFamily: "'Inter', sans-serif" }}
+            >
+              {skillGroup.category}
             </p>
 
-            <div className="grid grid-cols-2 gap-4 mt-6">
-              <p className="flex items-center text-white font-sans cursor-default rounded-full border border-white px-4 py-2 w-[170px] space-x-2 text-lg mx-auto shadow-md hover:shadow-purple-600 transition duration-300">
-                <img
-                  src="mysql_icon.png"
-                  alt="Mysql Icon"
-                  className="w-6 h-6"
-                />
-                <span>MYSQL</span>
-              </p>
-
-              <p className="flex items-center text-white font-sans cursor-default rounded-full border border-white px-4 py-2 w-[170px] space-x-2 text-lg mx-auto shadow-md hover:shadow-purple-600 transition duration-300">
-                <img
-                  src="mysql_icon.png"
-                  alt="Node Icon"
-                  className="w-6 h-6"
-                />
-                <span>Node-JS</span>
-              </p>
+            {/* Skill Items */}
+            <div className="flex flex-wrap justify-center gap-3">
+              {skillGroup.items.map((skill, sIndex) => (
+                <div
+                  key={sIndex}
+                  className="flex items-center gap-2 text-white rounded-full border border-white/30 px-4 py-2 text-base shadow-md hover:shadow-purple-600 hover:border-purple-500 transition-all duration-300 cursor-default"
+                >
+                  <img
+                    src={skill.icon}
+                    alt={`${skill.name} icon`}
+                    className="w-5 h-5 object-contain"
+                  />
+                  <span>{skill.name}</span>
+                </div>
+              ))}
             </div>
           </div>
-        </div>
-
-        <div className="border border-transparent -mt-[210px] w-full flex">
-          {/* Tools Box */}
-          <div className="rounded-lg border border-white mt-[30px] w-[430px] h-[250px] ml-[190px] p-4">
-            <p className="text-2xl text-white font-sans cursor-default text-center mb-4">
-              TOOLS
-            </p>
-
-            <div className="grid grid-cols-2 gap-4">
-              <p className="flex items-center text-white font-sans cursor-default rounded-full border border-white px-4 py-2 w-[170px] space-x-2 text-lg mx-auto shadow-md hover:shadow-purple-600 transition duration-300">
-                <img src="git_icon.png" alt="Git Icon" className="w-6 h-6" />
-                <span>Git</span>
-              </p>
-
-              <p className="flex items-center text-white font-sans cursor-default rounded-full border border-white px-4 py-2 w-[170px] space-x-2 text-lg mx-auto shadow-md hover:shadow-purple-600 transition duration-300">
-                <img
-                  src="github_icon.png"
-                  alt="Github Icon"
-                  className="w-6 h-6"
-                />
-                <span>Github</span>
-              </p>
-
-              <p className="flex items-center text-white font-sans cursor-default rounded-full border border-white px-4 py-2 w-[170px] space-x-2 text-lg mx-auto shadow-md hover:shadow-purple-600 transition duration-300">
-                <img src="vs_icon.png" alt="Vs Code Icon" className="w-6 h-6" />
-                <span>VS Code</span>
-              </p>
-
-              <p className="flex items-center text-white font-sans cursor-default rounded-full border border-white px-4 py-2 w-[170px] space-x-2 text-lg mx-auto shadow-md hover:shadow-purple-600 transition duration-300">
-                <img
-                  src="postman_icon.png"
-                  alt="Postman Icon"
-                  className="w-6 h-6"
-                />
-                <span>Postman</span>
-              </p>
-
-              <div className="col-span-2 flex justify-center">
-                <p className="flex items-center text-white font-sans cursor-default rounded-full border border-white px-4 py-2 w-[170px] space-x-2 text-lg shadow-md hover:shadow-purple-600 transition duration-300">
-                  <img src="vs_icon.png" alt="Vs Code Icon" className="w-6 h-6" />
-                  <span>PgAdmin4</span>
-                </p>
-              </div>
-
-            </div>
-          </div>
-
-          {/* Languages Box */}
-          <div className="rounded-lg border border-white mt-[30px] w-[430px] h-[250px] ml-[60px] p-4">
-            <p className="text-2xl text-white font-sans cursor-default text-center mb-4">
-              LANGUAGES
-            </p>
-
-            <div className="grid grid-cols-2 gap-4">
-              <p className="flex items-center text-white font-sans cursor-default rounded-full border border-white px-4 py-2 w-[170px] space-x-2 text-lg mx-auto shadow-md hover:shadow-purple-600 transition duration-300">
-                <img src="js_icon.png" alt="JS Icon" className="w-6 h-6" />
-                <span>JavaScript</span>
-              </p>
-
-              <p className="flex items-center text-white font-sans cursor-default rounded-full border border-white px-4 py-2 w-[170px] space-x-2 text-lg mx-auto shadow-md hover:shadow-purple-600 transition duration-300">
-                <img
-                  src="TypeScript_icon.png"
-                  alt="TypeScript Icon"
-                  className="w-6 h-6"
-                />
-                <span>TypeScript</span>
-              </p>
-            </div>
-          </div>
-        </div>
+        ))}
       </div>
-    </>
+    </section>
   );
 }

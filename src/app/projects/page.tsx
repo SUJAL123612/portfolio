@@ -1,131 +1,162 @@
-export default function Projects() {
+const projects = [
+    {
+      name: "Library Management System",
+      image: "LMS.png",
+      link: "https://library-management-system-d0nlu2eve-sujal-chalkes-projects.vercel.app/",
+      description:
+        "Full-stack Library Management System with role-based authentication, book inventory CRUD, automated fine calculation and member feedback system.",
+      tech: ["Next.js", "React", "TypeScript", "Tailwind CSS", "MySQL"],
+      badge: "Full Stack",
+    },
+    {
+      name: "Movie Hub",
+      image: "Movie-Hub.png",
+      link: "https://sujal123612.github.io/Movie-Hub/",
+      description:
+        "Responsive React.js app to explore and search movies with component-based architecture, API integration and dynamic content rendering.",
+      tech: ["React", "JavaScript", "CSS"],
+      badge: "React",
+    },
+    {
+      name: "Pokemon Battle Arena",
+      image: "Pokemon.png",
+      link: "https://sujal123612.github.io/Pokemon_Project/first_page",
+      description:
+        "Pokémon-inspired battle arena built with React featuring interactive gameplay and dynamic data from the PokeAPI.",
+      tech: ["React", "JavaScript", "CSS"],
+      badge: "React",
+    },
+    {
+      name: "Weather App",
+      image: "Weather.png",
+      link: "https://sujal123612.github.io/Weather_APP/",
+      description:
+        "Responsive Weather App that fetches real-time weather data using the OpenWeatherMap API based on user input.",
+      tech: ["HTML", "CSS", "JavaScript", "API"],
+      badge: "API",
+    },
+    {
+      name: "GitHub Profile Search",
+      image: "Github.png",
+      link: "https://sujal123612.github.io/Github_Profile_search/",
+      description:
+        "Interactive web app that fetches and displays GitHub user profiles and repositories by entering a username.",
+      tech: ["HTML", "CSS", "JavaScript", "API"],
+      badge: "API",
+    },
+    {
+      name: "Expense Tracker",
+      image: "Expense_Tracker.png",
+      link: "https://sujal123612.github.io/Expense_Tracker/",
+      description:
+        "Web app to track income and expenses with transaction history and dynamic balance calculation.",
+      tech: ["HTML", "CSS", "JavaScript"],
+      badge: "JavaScript",
+    },
+    {
+      name: "Restaurant Website",
+      image: "restaurent.png",
+      link: "https://sujal123612.github.io/restaurent/",
+      description:
+        "Modern single-page restaurant website with image slider, parallax backgrounds, food menu and responsive layout.",
+      tech: ["HTML", "CSS"],
+      badge: "HTML/CSS",
+    },
+    {
+      name: "Random User API",
+      image: "API.png",
+      link: "https://sujal123612.github.io/Api_Random_User/",
+      description:
+        "Generates random user profiles using the Random User API with a responsive and interactive UI.",
+      tech: ["HTML", "CSS", "JavaScript", "API"],
+      badge: "API",
+    },
+    {
+      name: "Shopping List",
+      image: "Shopping_List.png",
+      link: "https://sujal123612.github.io/Shopping_List/",
+      description:
+        "Shopping list web app with features to add, edit, delete, search and save items using localStorage.",
+      tech: ["HTML", "CSS", "JavaScript"],
+      badge: "JavaScript",
+    },
+  ];
+  
+  export default function Projects() {
     return (
-        <>
-            <div className="bg-black/90 border border-transparent w-full h-[1940px]">
-                <h2
-                    className="text-[50px] font-sans text-white cursor-default underline underline-offset-7 decoration-purple-600 decoration-4 text-center mt-[30px]"
-                    id="projects" style={{ fontFamily: "'Inter', sans-serif;" }}>
-                    PROJECTS
-                </h2>
-                <div className="flex ml-5 mt-[-30px]">
-                    <div className=" rounded-lg border border-transparent mt-16 w-80 md:w-96 p-6 flex flex-col items-center text-center ml-[20px] bg-gray-900 shadow-lg hover:shadow-purple-600 transition duration-300">
-                        <img src="restaurent.png" alt="Restaurant Icon" className="w-full h-48 object-contain mb-4 cursor-default rounded transition-transform duration-500 hover:scale-110"/>
-                        <p className="group text-2xl text-white font-semibold mb-2 hover:text-purple-500" style={{ fontFamily: "'Inter', sans-serif" }} >
-                            <a href="https://sujal123612.github.io/restaurent/" target="_blank" className="block group-hover:hidden">Restaurant</a>
-                            <a href="https://sujal123612.github.io/restaurent/" target="_blank" className="hidden group-hover:block">Show Project</a>
-                        </p>
-                        <p className="text-base text-white/60 font-sans cursor-default" style={{ fontFamily: "'Roboto', sans-serif" }}>
-                            Built a modern, single-page restaurant website using HTML and CSS. Features include an image slider, responsive layout, parallax backgrounds, a detailed food menu, featured chef sections, and a footer with contact and gallery information.
-                        </p>
-                    </div>
-                    <div className="rounded-lg border border-transparent mt-16 w-80 md:w-96 p-6 flex flex-col items-center text-center ml-[20px] bg-gray-900 shadow-lg hover:shadow-purple-600 transition duration-300">
-                        <img src="calculator.png" alt="calculator Icon" className="w-full h-48 object-contain mb-4 cursor-default rounded transition-transform duration-500 hover:scale-110" />
-                        <p className="group text-2xl text-white font-sans cursor-pointer mb-2 hover:text-purple-600" style={{ fontFamily: "'Inter', sans-serif" }}>
-                            <a href="https://sujal123612.github.io/simple_calc/" target="_blank" className="block group-hover:hidden">Calculator</a>
-                            <a href="https://sujal123612.github.io/simple_calc/" target="_blank" className="hidden group-hover:block">Show Project</a>
-                        </p>
-                        <p className="text-base text-white/60 font-sans cursor-default" style={{ fontFamily: "'Roboto', sans-serif" }}>
-                            Simple Operations Like Addition, Subtraction, Multiplication and Division.
-                        </p>
-                    </div>
-                    <div className="rounded-lg border border-transparent mt-16 w-80 md:w-96 p-6 flex flex-col items-center text-center ml-[20px] bg-gray-900 shadow-lg hover:shadow-purple-600 transition duration-300">
-                        <img src="Tic_Tac_Toe.png" alt="tic-tac-toe Icon" className="w-full h-48 object-contain mb-4 cursor-default rounded transition-transform duration-500 hover:scale-110" />
-                        <p className="group text-2xl text-white font-sans cursor-pointer mb-2 hover:text-purple-600" style={{ fontFamily: "'Inter', sans-serif" }}>
-                            <a href="https://sujal123612.github.io/Tic-Tac-Toe/" target="_blank" className="block group-hover:hidden">Tic-Tac-Toe</a>
-                            <a href="https://sujal123612.github.io/Tic-Tac-Toe/" target="_blank" className="hidden group-hover:block">Show Project</a>
-                        </p>
-                        <p className="text-base text-white/60 font-sans cursor-default" style={{ fontFamily: "'Roboto', sans-serif" }}>
-                            Play with a friend, customize player names, and experience the joy of victory in this classic two-player game. Simple and interactive.
-                        </p>
-                    </div>
-                </div>
-                <div className="flex ml-5 ">
-                    <div className="rounded-lg border border-transparent mt-16 w-80 md:w-96 p-6 flex flex-col items-center text-center ml-[20px] bg-gray-900 shadow-lg hover:shadow-purple-600 transition duration-300">
-                        <img src="Expense_Tracker.png" alt="expense Icon" className="w-full h-48 object-contain mb-4 cursor-default rounded transition-transform duration-500 hover:scale-110" />
-                        <p className="group text-2xl text-white font-sans cursor-pointer mb-2 hover:text-purple-600" style={{ fontFamily: "'Inter', sans-serif" }}>
-                            <a href="https://sujal123612.github.io/Expense_Tracker/" target="_blank" className="block group-hover:hidden">Expense_Tracker</a>
-                            <a href="https://sujal123612.github.io/Expense_Tracker/" target="_blank" className="hidden group-hover:block">Show Project</a>
-                        </p>
-                        <p className="text-base text-white/60 font-sans cursor-default" style={{ fontFamily: "'Roboto', sans-serif" }}>
-                            A simple expense tracker web application using HTML, CSS, and JavaScript. Add your income and expenses, view the transaction history, and track your total balance dynamically.
-                        </p>
-                    </div>
-                    <div className="rounded-lg border border-transparent mt-16 w-80 md:w-96 p-6 flex flex-col items-center text-center ml-[20px] bg-gray-900 shadow-lg hover:shadow-purple-600 transition duration-300">
-                        <img src="Shopping_List.png" alt="shopping Icon" className="w-full h-48 object-contain mb-4 cursor-default rounded transition-transform duration-500 hover:scale-110" />
-                        <p className="group text-2xl text-white font-sans cursor-pointer mb-2 hover:text-purple-600" style={{ fontFamily: "'Inter', sans-serif" }}>
-                            <a href="https://sujal123612.github.io/Shopping_List/" target="_blank" className="block group-hover:hidden">Shopping_List</a>
-                            <a href="https://sujal123612.github.io/Shopping_List/" target="_blank" className="hidden group-hover:block">Show Project</a>
-                        </p>
-                        <p className="text-base text-white/60 font-sans cursor-default" style={{ fontFamily: "'Roboto', sans-serif" }}>
-                            A simple shopping list web app built with HTML, CSS, and JavaScript. Features include adding, editing, deleting, searching, and saving items using localStorage.
-                        </p>
-                    </div>
-                    <div className="rounded-lg border border-transparent mt-16 w-80 md:w-96 p-6 flex flex-col items-center text-center ml-[20px] bg-gray-900 shadow-lg hover:shadow-purple-600 transition duration-300">
-                        <img src="API.png" alt="Api Icon" className="w-full h-48 object-contain mb-4 cursor-default rounded transition-transform duration-500 hover:scale-110" />
-                        <p className="group text-2xl text-white font-sans cursor-pointer mb-2 hover:text-purple-600" style={{ fontFamily: "'Inter', sans-serif" }}>
-                            <a href="https://sujal123612.github.io/Api_Random_User/" target="_blank" className="block group-hover:hidden">API_Random_User</a>
-                            <a href="https://sujal123612.github.io/Api_Random_User/" target="_blank" className="hidden group-hover:block">Show Project</a>
-                        </p>
-                        <p className="text-base text-white/60 font-sans cursor-default" style={{ fontFamily: "'Roboto', sans-serif" }}>
-                            Generates random user profiles using the Random User API. Built with HTML, CSS, and JavaScript for a responsive and interactive UI.
-                        </p>
-                    </div>
-                </div>
-                <div className="flex ml-5">
-                    <div className="rounded-lg border border-transparent mt-16 w-80 md:w-96 p-6 flex flex-col items-center text-center ml-[20px] bg-gray-900 shadow-lg hover:shadow-purple-600 transition duration-300">
-                        <img src="Weather.png" alt="weather Icon" className="w-full h-48 object-contain mb-4 cursor-default rounded transition-transform duration-500 hover:scale-110" />
-                        <p className="group text-2xl text-white font-sans cursor-pointer mb-2 hover:text-purple-600" style={{ fontFamily: "'Inter', sans-serif" }}>
-                            <a href="https://sujal123612.github.io/Weather_APP/" target="_blank" className="block group-hover:hidden">Weather_App</a>
-                            <a href="https://sujal123612.github.io/Weather_APP/" target="_blank" className="hidden group-hover:block">Show Project</a>
-                        </p>
-                        <p className="text-base text-white/60 font-sans cursor-default" style={{ fontFamily: "'Roboto', sans-serif" }}>
-                            A simple and responsive Weather App built with HTML, CSS, and JavaScript. It fetches real-time weather data using the OpenWeatherMap API based on user input.
-                        </p>
-                    </div>
-                    <div className="rounded-lg border border-transparent mt-16 w-80 md:w-96 p-6 flex flex-col items-center text-center ml-[20px] bg-gray-900 shadow-lg hover:shadow-purple-600 transition duration-300">
-                        <img src="Github.png" alt="github Icon" className="w-full h-48 object-contain mb-4 cursor-default rounded transition-transform duration-500 hover:scale-110" />
-                        <p className="group text-2xl text-white font-sans cursor-pointer mb-2 hover:text-purple-600" style={{ fontFamily: "'Inter', sans-serif" }}>
-                            <a href="https://sujal123612.github.io/Github_Profile_search/" target="_blank" className="block group-hover:hidden">Github_Profile_Search</a>
-                            <a href="https://sujal123612.github.io/Github_Profile_search/" target="_blank" className="hidden group-hover:block">Show Project</a>
-                        </p>
-                        <p className="text-base text-white/60 font-sans cursor-default" style={{ fontFamily: "'Roboto', sans-serif" }}>
-                            The GitHub Profile Search is a simple and interactive web application that allows users to search for GitHub profiles by entering a username.
-                        </p>
-                    </div>
-                    <div className="rounded-lg border border-transparent mt-16 w-80 md:w-96 p-6 flex flex-col items-center text-center ml-[20px] bg-gray-900 shadow-lg hover:shadow-purple-600 transition duration-300">
-                        <img src="Pokemon.png" alt="github Icon" className="w-full h-48 object-contain mb-4 cursor-default rounded transition-transform duration-500 hover:scale-110" />
-                        <p className="group text-2xl text-white font-sans cursor-pointer mb-2 hover:text-purple-600" style={{ fontFamily: "'Inter', sans-serif" }}>
-                            <a href="https://sujal123612.github.io/Pokemon_Project/first_page" target="_blank" className="block group-hover:hidden">Pokemon Battle Arena</a>
-                            <a href="https://sujal123612.github.io/Pokemon_Project/first_page" target="_blank" className="hidden group-hover:block">Show Project</a>
-                        </p>
-                        <p className="text-base text-white/60 font-sans cursor-default" style={{ fontFamily: "'Roboto', sans-serif" }}>
-                            Pokémon-inspired battle arena built with React.
-                        </p>
-                    </div>
-                </div>
-                <div className="flex ml-5">
-                <div className="rounded-lg border border-transparent mt-16 w-80 md:w-96 p-6 flex flex-col items-center text-center ml-[20px] bg-gray-900 shadow-lg hover:shadow-purple-600 transition duration-300">
-                        <img src="Movie-Hub.png" alt="github Icon" className="w-full h-48 object-contain mb-4 cursor-default rounded transition-transform duration-500 hover:scale-110" />
-                        <p className="group text-2xl text-white font-sans cursor-pointer mb-2 hover:text-purple-600" style={{ fontFamily: "'Inter', sans-serif" }}>
-                            <a href="https://sujal123612.github.io/Movie-Hub/" target="_blank" className="block group-hover:hidden">Movie Hub</a>
-                            <a href="https://sujal123612.github.io/Movie-Hub/" target="_blank" className="hidden group-hover:block">Show Project</a>
-                        </p>
-                        <p className="text-base text-white/60 font-sans cursor-default" style={{ fontFamily: "'Roboto', sans-serif" }}>
-                        Movie Hub is a responsive React.js web application that allows users to explore and search movies with an interactive and user-friendly interface. The project focuses on front-end development concepts such as component-based architecture, API integration, responsive design, and dynamic content rendering.
-                        </p>
-                    </div>
-                    <div className="rounded-lg border border-transparent mt-16 w-80 md:w-96 p-6 flex flex-col items-center text-center ml-[20px] bg-gray-900 shadow-lg hover:shadow-purple-600 transition duration-300">
-                        <img src="LMS.png" alt="LMS Icon" className="w-full h-48 object-contain mb-4 cursor-default rounded transition-transform duration-500 hover:scale-110" />
-                        <p className="group text-2xl text-white font-sans cursor-pointer mb-2 hover:text-purple-600" style={{ fontFamily: "'Inter', sans-serif" }}>
-                            <a href="https://library-management-system-d0nlu2eve-sujal-chalkes-projects.vercel.app/" target="_blank" className="block group-hover:hidden">Library_Management_System</a>
-                            <a href="https://library-management-system-d0nlu2eve-sujal-chalkes-projects.vercel.app/" target="_blank" className="hidden group-hover:block">Show Project</a>
-                        </p>
-                        <p className="text-base text-white/60 font-sans cursor-default" style={{ fontFamily: "'Roboto', sans-serif" }}>
-                        Developed a full-stack Online Library Management System using Next.js, React, TypeScript, and MySQL, enabling admins to manage books and members while allowing users to issue, return, and track books with fine calculation. Designed a responsive UI with secure role-based access.
-                        </p>
-                    </div>
-                </div>
+      <section
+        className="bg-black/90 w-full py-16 px-6 md:px-24"
+        id="projects"
+      >
+        {/* Section Title */}
+        <h2
+          className="text-[50px] text-white text-center underline underline-offset-8 decoration-purple-600 decoration-4 mb-16 cursor-default"
+          style={{ fontFamily: "'Inter', sans-serif" }}
+        >
+          Projects
+        </h2>
+  
+        {/* Projects Grid */}
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+          {projects.map((project, index) => (
+            <div
+              key={index}
+              className="bg-gray-900 rounded-xl border border-white/10 p-5 flex flex-col hover:border-purple-600 hover:shadow-lg hover:shadow-purple-600/20 transition-all duration-300"
+            >
+              {/* Badge */}
+              <div className="flex justify-between items-center mb-3">
+                <span className="text-xs px-3 py-1 rounded-full bg-purple-600/20 text-purple-300 border border-purple-600/30">
+                  {project.badge}
+                </span>
+              </div>
+  
+              {/* Image */}
+              <img
+                src={project.image}
+                alt={project.name}
+                className="w-full h-44 object-contain rounded-lg mb-4 transition-transform duration-500 hover:scale-105 cursor-default"
+              />
+  
+              {/* Project Name */}
+              <h3
+                className="text-xl text-white font-semibold mb-2"
+                style={{ fontFamily: "'Inter', sans-serif" }}
+              >
+                {project.name}
+              </h3>
+  
+              {/* Description */}
+              <p
+                className="text-sm text-white/60 leading-relaxed mb-4 flex-grow"
+                style={{ fontFamily: "'Roboto', sans-serif" }}
+              >
+                {project.description}
+              </p>
+  
+              {/* Tech Tags */}
+              <div className="flex flex-wrap gap-2 mb-4">
+                {project.tech.map((t, tIndex) => (
+                  <span
+                    key={tIndex}
+                    className="text-xs px-3 py-1 rounded-full bg-white/5 text-white/60 border border-white/10"
+                  >
+                    {t}
+                  </span>
+                ))}
+              </div>
+  
+              {/* Show Project Button */}
+              <a
+                href={project.link}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="mt-auto text-center text-sm text-purple-400 border border-purple-600 rounded-full py-2 px-4 hover:bg-purple-600 hover:text-white transition-all duration-300"
+              >
+                Show Project ↗
+              </a>
             </div>
-        </>
+          ))}
+        </div>
+      </section>
     );
-}
+  }
