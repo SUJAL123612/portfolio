@@ -38,7 +38,7 @@ export default function Home() {
       {/* Right Image */}
       <div className="flex justify-center">
         <img
-          src="/profil.jpg"
+          src="/profile.jpg"
           alt="profile"
           className="w-[250px] sm:w-[350px] md:w-[450px] lg:w-[500px] h-auto object-contain"
         />
