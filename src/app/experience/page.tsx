@@ -14,7 +14,7 @@ export default function Experience() {
           },
           {
             name: "Khushi Enterprises",
-            link: "#",
+            link: "https://khushiinvisiblegrill.com/",
             description: "Built a responsive business website on WordPress with custom HTML, CSS and JavaScript — including image slider, product specification tables, animated counters and Google Maps contact section.",
             tech: ["HTML", "CSS", "JavaScript", "Wordpress"],
           },
@@ -28,7 +28,7 @@ export default function Experience() {
         projects: [
           {
             name: "Gami Bianca",
-            link: "#",
+            link: "https://gamibiancaa.co.in/",
             description: "Developed a luxury real estate landing page on WordPress with custom HTML, CSS and JavaScript — featuring enquiry popup, floor plans, amenities gallery and smooth scroll navigation.",
             tech: ["HTML", "CSS", "JavaScript", "Wordpress"],
           },
