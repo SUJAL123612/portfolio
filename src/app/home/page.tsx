@@ -15,7 +15,7 @@ export default function Home() {
           className="text-white text-sm sm:text-base lg:text-lg mt-5 max-w-2xl text-justify"
           style={{ fontFamily: "'Poppins', sans-serif" }}
         >
-          I&apos;m a Certified Full-Stack Developer with skills in HTML, CSS,
+          I&apos;m a Certified Full-Stack Web Developer with skills in HTML, CSS,
           JavaScript, React.js, Next.js, Node.js, and SQL. I enjoy
           building web applications that combine simplicity,
           performance, and great user experience. Through hands-on
