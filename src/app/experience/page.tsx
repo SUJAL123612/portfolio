@@ -23,7 +23,7 @@ export default function Experience() {
       {
         role: "Website Developer Intern",
         company: "SITH Pvt. Ltd.",
-        duration: "Jan 2025 – Jul 2025",
+        duration: "Jan 2025 – Jun 2025",
         type: "Internship",
         projects: [
           {
