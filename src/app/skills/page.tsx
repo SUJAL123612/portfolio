@@ -16,7 +16,8 @@ const skills = [
     category: "Backend & Database",
     items: [
       { name: "Node JS", icon: "Node.js_icon.png" },
-      { name: "MySQL", icon: "mysql_icon.png" },
+      { name: "SQL", icon: "sql_icon.png" },
+      { name: "PostgreSQL", icon: "postgre_icon.png" },
     ],
   },
   {
